@@ -13,7 +13,7 @@ const routes: Routes = [
   { path: 'view/:id', component: ViewComponent},
   { path: 'edit/:id', component: EditComponent},
   { path: 'delete/:id', component: DeleteComponent},
-  { path: '**', component: PageNotFoundComponent} 
+  { path: '**', component: PageNotFoundComponent}
 ];
 
 @NgModule({
